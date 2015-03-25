@@ -1,6 +1,8 @@
 module.exports = function(str){
-  var m = str.match(/([\[\]\(]?)([^,]*),([^\]\[\)]*)(.?)/);
   var o = {};
+
+  var m = str.match(/([\[\]\(]?)([^,]*),([^\]\[\)]*)(.?)/);
+  if (!m) return o;
 
   var excludeLower = m[1] == ']' || m[1] == '(';
   var lowerBound = m[2];

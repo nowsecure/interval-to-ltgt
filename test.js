@@ -8,7 +8,8 @@ var intervals = [
   { str: '[a,b', obj: { gte: 'a', lte: 'b' } },
   { str: '(a,b', obj: { gt: 'a', lte: 'b' } },
   { str: '[a,b)', obj: { gte: 'a', lt: 'b' } },
-  { str: ']a,b[', obj: { gt: 'a', lt: 'b' } }
+  { str: ']a,b[', obj: { gt: 'a', lt: 'b' } },
+  { str: '', obj: {} }
 ];
 
 test('interval-to-ltgt', function(t){
