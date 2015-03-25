@@ -5,7 +5,7 @@
   "scripts": {
     "test": "make test"
   },
-  "repository": "viaforensics/interval-to-ltgt",
+  "repository": "nowsecure/interval-to-ltgt",
   "devDependencies": {
     "tape": "^3.5.0"
   },
