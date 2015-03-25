@@ -3,6 +3,8 @@
 
   Convert an interval string to a levelup style ltgt object
 
+  [![build status](https://secure.travis-ci.org/nowsecure/interval-to-ltgt.svg)](http://travis-ci.org/nowsecure/interval-to-ltgt)
+
 ## Example
 
 ```js
