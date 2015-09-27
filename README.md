@@ -1,7 +1,9 @@
 
 # interval-to-ltgt
 
-  Convert an interval string to a levelup style ltgt object
+  Convert an interval string to a levelup style ltgt object.
+
+  This is the counterpart to [ltgt-to-interval](https://npmjs.org/package/ltgt-to-interval).
 
   [![build status](https://secure.travis-ci.org/nowsecure/interval-to-ltgt.svg)](http://travis-ci.org/nowsecure/interval-to-ltgt)
 
