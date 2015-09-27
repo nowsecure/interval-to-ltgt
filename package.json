@@ -1,6 +1,6 @@
 {
   "name": "interval-to-ltgt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert an interval string to a levelup style ltgt object",
   "scripts": {
     "test": "make test"
